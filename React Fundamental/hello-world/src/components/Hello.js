@@ -7,6 +7,6 @@ const Hello = () => {
 
     //     </div>
     // )
-    return React.createElement("div", null, "Hello Harshal")
+    return React.createElement("div", null, 'h1', "Hello Harshal")
 }
 export default Hello;
