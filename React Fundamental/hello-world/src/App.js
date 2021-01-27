@@ -8,11 +8,12 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClicked from "./components/ClassClicked";
 import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 class App extends Component {
   render() {
     return (
       <div className="App" >
-        <ParentComponent />
+        <UserGreeting />
 
       </div>
     );
