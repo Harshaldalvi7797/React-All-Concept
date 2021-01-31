@@ -10,12 +10,15 @@ import ClassClicked from "./components/ClassClicked";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
+import PureComponents from "./components/PureComponents/PureComponents";
+import RefsDemo from "./components/refs/RefsDemo";
 class App extends Component {
   render() {
     return (
       <div className="App" >
-        <NameList />
-
+        <RefsDemo />
 
       </div>
     );
